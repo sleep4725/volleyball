@@ -1,0 +1,8 @@
+*.cfg
+*.exe
+
+TeamPhoto/
+Test/
+Include/
+Lib/
+Scripts/

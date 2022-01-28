@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "number_of_shards": 2,
+    "number_of_replicas": 1
+  },
+  "mappings": {
+    "properties": {
+      "player_kor_name": {"type": "keyword"},
+      "player_team_name": {"type": "keyword"},
+      "player_eng_name": {"type": "keyword"},
+      "player_position": {"type": "keyword"},
+      "player_number": {"type": "keyword"},
+      "player_birthday": {"type": "keyword"},
+      "player_height": {"type": "integer"},
+      "player_elementary_school": {"type": "keyword"},
+      "player_middle_school": {"type": "keyword"},
+      "player_high_school": {"type": "keyword"},
+
+      "player_age": {"type": "integer"},
+      "player_photo_image_path": {"type": "text"},
+      "player_unique_key": {"type": "keyword"}
+    }
+  }
+}
